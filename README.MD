@@ -11,15 +11,13 @@ HabitEasy allows users to create, track, and analyze their habits through a simp
 * Python
 * Flask (for the web API)
 * SQLAlchemy (for database management)
-* [Mention your CLI interaction method]
 * PostgreSQL (for the database)
 * Flask-Migrate (for database migrations)
-* pytest (for testing)
 
 ## How to Use
 
 1.  **Prerequisites:** Ensure you have Python installed.
-2.  **Running the CLI:** Navigate to the directory containing `habitease_cli.py` and run `python habitease_cli.py`.
+2.  **Running the CLI:** Navigate to the directory containing `cli.py` and run `python cli.py`.
 3.  **Basic Commands:**
     * `create --name <habit_name> --frequency <daily|weekly> [--description <description>]` - Create a new habit.
     * `list [--frequency <daily|weekly>]` - List all habits (or filter by frequency).
