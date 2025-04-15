@@ -4,7 +4,7 @@ A command-line habit tracking application built with Python, Flask, and SQLAlche
 
 ## Overview
 
-HabitEase allows users to create, track, and analyze their habits through a simple command-line interface. It provides features for defining habits with different frequencies (daily, weekly), recording completions, and viewing progress through streak tracking.
+HabitEasy allows users to create, track, and analyze their habits through a simple command-line interface. It provides features for defining habits with different frequencies (daily, weekly), recording completions, and viewing progress through streak tracking.
 
 ## Technologies Used
 
