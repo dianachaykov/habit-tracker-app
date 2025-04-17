@@ -105,8 +105,10 @@ Ensure you have Python 3.6 or higher installed on your system.
     ```
 
 ## Project Structure
+
+```text
 habit_tracker_app/
-├── .venv/          # Virtual environment directory 
+├── .venv/          # Virtual environment directory (should be ignored by Git)
 ├── migrations/     # Directory containing database migration files
 │   └── versions/   # Contains the actual migration scripts
 ├── tests/          # Directory for unit tests
@@ -118,10 +120,10 @@ habit_tracker_app/
 ├── cli.py          # Command-line interface logic
 ├── extensions.py   # Flask extensions initialization
 ├── models.py       # Database models (SQLAlchemy)
-├── passwords.txt   # Potentially for initial user setup 
+├── passwords.txt   # Potentially for initial user setup
 ├── README.md       # This file
 ├── routes.py       # API routes for the backend
-├── utils.py        # Utility functions 
+├── utils.py        # Utility functions (if any)
 ├── requirements.txt# Lists the project dependencies
 └── ... (other files)
 
